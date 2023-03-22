@@ -3,18 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://komuragaeri.github.io/burning-ship/",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear",
-    "gh-pages": "npm run build && gh-pages -d public -r 'https://komuragaeri@github.com/komuragaeri/burning-ship.git' -b gh-pages"
+    "start": "sirv public --no-clear"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-terser": "^0.4.0",
-    "gh-pages": "^5.0.0",
     "rollup": "^3.15.0",
     "rollup-plugin-css-only": "^4.3.0",
     "rollup-plugin-livereload": "^2.0.0",
